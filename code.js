@@ -75,7 +75,7 @@ keyAPI = "trnsl.1.1.20130922T110455Z.4a9208e68c61a760.f819c1db302ba637c2bea1befa
     $recBtn.text(recognition ? "Alto" : "Habla");
   }
   function send() {
-    var text = $speechInput.val();
+    var text = $speechInput.val().toLowerCase();
     $.ajax({
       type: "POST",
       url: baseUrl + "query?",
