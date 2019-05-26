@@ -158,7 +158,20 @@ keyAPI = "trnsl.1.1.20130922T110455Z.4a9208e68c61a760.f819c1db302ba637c2bea1befa
           $("#imgshowsena").hide();
           //your code to be executed after 1 second
         }, 5000);
-        
+
+      }
+      if (val.result.parameters.tabla) {
+
+        spokenResponse = val.result.speech; //parametros del objeto json almasenados en el objeto val.result
+        respond(spokenResponse);
+        $("#imgshowsena").show();
+        $("#imgshowsena").attr("src","multiplicacion"+val.result.parameters.tabla+".png");
+        setTimeout(function() {
+          $("#imgshowsena").attr("src","");
+          $("#imgshowsena").hide();
+          //your code to be executed after 1 second
+        }, 5000);
+
       }
 
     }
