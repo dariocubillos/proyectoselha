@@ -1,5 +1,5 @@
 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate",
-voiceselect = "Spanish Latin American Female";
+voiceselect = "Spanish Latin American Male";
 keyAPI = "trnsl.1.1.20130922T110455Z.4a9208e68c61a760.f819c1db302ba637c2bea1befa4db9f784e9fbb8";
   var accessToken = "8f1fb6150d3d429ba46a4f4f2f89f233",
     baseUrl = "https://api.api.ai/v1/",
