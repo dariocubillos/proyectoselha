@@ -157,7 +157,7 @@ keyAPI = "trnsl.1.1.20130922T110455Z.4a9208e68c61a760.f819c1db302ba637c2bea1befa
           $("#imgshowsena").attr("src","");
           $("#imgshowsena").hide();
           //your code to be executed after 1 second
-        }, 5000);
+        }, 15000);
 
       }
       if (val.result.parameters.tabla) {
@@ -170,7 +170,7 @@ keyAPI = "trnsl.1.1.20130922T110455Z.4a9208e68c61a760.f819c1db302ba637c2bea1befa
           $("#imgshowsena").attr("src","");
           $("#imgshowsena").hide();
           //your code to be executed after 1 second
-        }, 5000);
+        }, 50000);
 
       }
 
