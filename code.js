@@ -152,7 +152,7 @@ keyAPI = "trnsl.1.1.20130922T110455Z.4a9208e68c61a760.f819c1db302ba637c2bea1befa
         spokenResponse = val.result.speech; //parametros del objeto json almasenados en el objeto val.result
         respond(spokenResponse);
         $("#imgshowsena").show();
-        $("#imgshowsena").attr("src",val.result.parameters.lugar+".png");
+        $("#imgshowsena").attr("src",val.result.parameters.lugar+".jpg");
         setTimeout(function() {
           $("#imgshowsena").attr("src","");
           $("#imgshowsena").hide();
